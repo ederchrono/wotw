@@ -2,6 +2,8 @@
 
 Widget of the Week is a blog post series where I take gifs or videos of awesome UI/UX components, and bring them to life with code. This is the repo where the UI components I create can be seen in a storybook catalog.
 
+#### [Storybook catalog](https://loving-sinoussi-6b5d74.netlify.com/)
+
 To see more widgets stay conected at any of these sites:
 
 - [https://ederdiaz.dev/](https://ederdiaz.dev/)
