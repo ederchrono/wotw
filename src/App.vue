@@ -7,18 +7,21 @@
   -->
   <div id="app">
     <!-- inster component to develop -->
+    <smiley-toggle v-model="active"/>
   </div>
 </template>
 
 <script>
 // import component to develop and add it to components
-
+import SmileyToggle from './components/smiley-toggle'
 export default {
   name: 'app',
   components: {
+    SmileyToggle
   },
   data () {
     return {
+      active: false
     }
   }
 }

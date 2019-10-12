@@ -4,6 +4,8 @@ Widget of the Week is a blog post series where I take gifs or videos of awesome 
 
 #### [Storybook catalog](https://loving-sinoussi-6b5d74.netlify.com/)
 
+#### [Bit.dev collection](https://bit.dev/ederchrono/widget-of-the-week)
+
 To see more widgets stay conected at any of these sites:
 
 - [https://ederdiaz.dev/](https://ederdiaz.dev/)

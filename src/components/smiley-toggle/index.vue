@@ -18,9 +18,8 @@
       <div class="faces-container">
         <div :class="{'active': value}" class="faces-together">
 
-          <img class="happy-face" svg-inline width="25" src='./happy-face.svg' alt="sleepy face" />
-
-          <img  class="sleepy-face" svg-inline width="25" src='./sleepy-face.svg' alt="sleepy face" />
+          <happy-face-svg class="happy-face"/>
+          <sleepy-face-svg class="sleepy-face"/>
 
         </div>
 
@@ -30,8 +29,15 @@
 </template>
 
 <script>
+import HappyFaceSvg from './happy-face-svg'
+import SleepyFaceSvg from './sleepy-face-svg'
+
 export default {
   name: 'smiley-toggle',
+  components: {
+    HappyFaceSvg,
+    SleepyFaceSvg
+  },
   props: {
     value: {
       type: Boolean,

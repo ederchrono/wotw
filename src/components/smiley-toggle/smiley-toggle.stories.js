@@ -1,4 +1,4 @@
-import SmileyToggle from './smiley-toggle.vue'
+import SmileyToggle from './index.vue'
 
 const components = { SmileyToggle }
 
