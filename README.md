@@ -38,3 +38,7 @@ yarn run lint
 yarn run test:unit
 ```
 
+### Build static storybook catalog
+```
+yarn build-storybook
+```
