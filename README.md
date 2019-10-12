@@ -1,34 +1,40 @@
-# widgets
+# Widgets of the week
+
+Widget of the Week is a blog post series where I take gifs or videos of awesome UI/UX components, and bring them to life with code. This is the repo where the UI components I create can be seen in a storybook catalog.
+
+To see more widgets stay conected at any of these sites:
+
+- [https://ederdiaz.dev/](https://ederdiaz.dev/)
+- [dev.to](https://dev.to/ederchrono)
+- [Git Connected](https://levelup.gitconnected.com/wotw/home)
 
 ## Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### See storybook catalog
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+yarn storybook
 ```
 
-### Run your tests
+### Compile and hot-reload for development
+```
+yarn serve
+```
+
+### Run tests
 ```
 yarn run test
 ```
 
-### Lints and fixes files
+### Lint and fix files
 ```
 yarn run lint
 ```
 
-### Run your unit tests
+### Run unit tests
 ```
 yarn run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

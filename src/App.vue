@@ -1,28 +1,25 @@
 <template>
+  <!--
+    This component is only used for dev purposes.
+    When working with a component this gets filled with it for
+    hot module reload when using `yarn serve`
+    The real widgets catalog can be seen running `yarn storybook`
+  -->
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- inster component to develop -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import component to develop and add it to components
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+  },
+  data () {
+    return {
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
