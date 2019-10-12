@@ -6,7 +6,7 @@ Widget of the Week is a blog post series where I take gifs or videos of awesome 
 
 #### [Bit.dev collection](https://bit.dev/ederchrono/widget-of-the-week)
 
-To see more widgets stay conected at any of these sites:
+To see more widgets stay connected at any of these sites:
 
 - [https://ederdiaz.dev/](https://ederdiaz.dev/)
 - [dev.to](https://dev.to/ederchrono)
@@ -27,19 +27,14 @@ yarn storybook
 yarn serve
 ```
 
-### Run tests
+### Run tests with jest
 ```
-yarn run test
+yarn test
 ```
 
 ### Lint and fix files
 ```
-yarn run lint
-```
-
-### Run unit tests
-```
-yarn run test:unit
+yarn lint
 ```
 
 ### Build static storybook catalog
