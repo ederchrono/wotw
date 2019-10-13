@@ -7,11 +7,14 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test": "vue-cli-service test:unit",
+    "test-coverage": "vue-cli-service test:unit --coverage && yarn coverage",
+    "coverage": "open ./coverage/lcov-report/index.html",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .out"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "gsap": "^2.1.3",
     "vue": "^2.6.10"
   },
   "devDependencies": {
