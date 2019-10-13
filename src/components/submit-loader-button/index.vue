@@ -211,17 +211,6 @@ export default {
   height: 50px;
   transform-origin: 25px 25px 25px;
 }
-.disabled .submit-btn {
-  cursor: not-allowed;
-  opacity: 0.7;
-  color: gray;
-  border-color: gray;
-  transition: opacity .3s ease-out;
-}
-.disabled .submit-btn:hover {
-  background-color: white;
-  color: gray;
-}
 
 .error .submit-btn {
   cursor: pointer;
@@ -236,5 +225,17 @@ export default {
   color: white;
   background-color: red;
   pointer-events: auto;
+}
+
+.disabled .submit-btn {
+  cursor: not-allowed;
+  opacity: 0.7;
+  color: gray;
+  border-color: gray;
+  transition: opacity .3s ease-out;
+}
+.disabled .submit-btn:hover {
+  background-color: white;
+  color: gray;
 }
 </style>
