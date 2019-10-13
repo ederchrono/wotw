@@ -1,6 +1,5 @@
 <template>
-  <div id="submit-button"
-    @click="clickedSubmit"
+  <div @click="clickedSubmit"
     class="submit-container"
     :class="{'disabled': disabled, 'error': error}">
 
@@ -30,7 +29,7 @@
 </template>
 
 <script>
-import { TweenLite, Power2 } from 'gsap/TweenMax'
+import { TweenLite, Power2 } from 'gsap/TweenLite'
 
 const circumference = 157
 
@@ -159,7 +158,6 @@ export default {
 <style scoped>
 .submit-container {
   position: relative;
-  margin: 80px;
 }
 
 .submit-btn {
