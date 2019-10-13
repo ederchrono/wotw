@@ -103,7 +103,6 @@ export const errored = () => ({
   template: '<submit-loader-button @click="reset" @ready="startLoading" :error="error" :progress="loadProgress"/>'
 })
 
-
 export const erroredAndDisabled = () => ({
   components,
   data () {
