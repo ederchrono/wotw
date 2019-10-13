@@ -103,7 +103,11 @@ export default {
     finishedAnimation () {
       this.$refs['submit-btn'].removeEventListener('transitionend',
         this.finishedAnimation, false)
-      this.$emit('success')
+
+      if (!this.error) {
+        // emit only when successfully uploaded
+        this.$emit('success')
+      }
     },
     restart () {
       this.clicked = false
