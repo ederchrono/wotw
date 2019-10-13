@@ -1,19 +1,8 @@
-<template>
-  <!--
-    This component is only used for dev purposes.
-    When working with a component this gets filled with it for
-    hot module reload when using `yarn serve`
-    The real widgets catalog can be seen running `yarn storybook`
-  -->
-  <div id="app">
-    <!-- insert component to develop -->
-    <card-slider :slides="slides"/>
-  </div>
-</template>
+import CardSlider from './index.vue'
 
-<script>
-// import component to develop and add it to components
-import CardSlider from './components/card-slider/index'
+const components = { CardSlider }
+
+export default { title: 'Card slider' }
 
 const slides = [
   {
@@ -32,17 +21,22 @@ const slides = [
     image: 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/eKi8dIrr8voobbaGzDpe8w0PVbC.jpg'
   }
 ]
-export default {
-  name: 'app',
-  components: {
-    CardSlider
-  },
+
+export const interactive = () => ({
+  components,
   data () {
     return {
-      slides
+      slides,
+      clicked: 'none'
     }
   },
   methods: {
-  }
-}
-</script>
+    buttonClicked (index) {
+      this.clicked = slides[index].title
+    }
+  },
+  template: `<div>
+    <card-slider :slides="slides" @click="buttonClicked"/>
+    <p>clicked: {{clicked}}</p>
+  </div>`
+})
