@@ -23,5 +23,17 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "ederchrono.widget-of-the-week/submit-loader-button@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/components/submit-loader-button/index.vue",
+                "test": false,
+                "name": "index.vue"
+            }
+        ],
+        "mainFile": "src/components/submit-loader-button/index.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "version": "14.4.1"
 }
