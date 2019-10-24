@@ -40,6 +40,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "ederchrono.widget-of-the-week/steps-progress@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/steps-progress/index.vue",
+                "test": false,
+                "name": "index.vue"
+            }
+        ],
+        "mainFile": "src/components/steps-progress/index.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "ederchrono.widget-of-the-week/submit-loader-button@0.0.5": {
         "files": [
             {
