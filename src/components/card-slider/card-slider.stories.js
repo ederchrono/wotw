@@ -1,4 +1,4 @@
-import CardSlider from './index.vue'
+import CardSlider from './card-slider.vue'
 
 const components = { CardSlider }
 

@@ -1,4 +1,4 @@
-import StepsProgress from './index.vue'
+import StepsProgress from './steps-progress.vue'
 
 const components = { StepsProgress }
 

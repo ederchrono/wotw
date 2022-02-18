@@ -27,7 +27,7 @@
 
 <script>
 import { TweenLite } from 'gsap'
-import SliderCard from './slider-card'
+import SliderCard from './card-slider-card'
 
 export default {
   components: {

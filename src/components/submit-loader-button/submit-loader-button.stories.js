@@ -1,4 +1,4 @@
-import SubmitLoaderButton from './index.vue'
+import SubmitLoaderButton from './submit-loader-button.vue'
 
 const components = { SubmitLoaderButton }
 
