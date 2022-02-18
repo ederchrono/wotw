@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { TweenLite } from 'gsap/TweenLite'
+import { TweenLite } from 'gsap'
 import SliderCard from './slider-card'
 
 export default {

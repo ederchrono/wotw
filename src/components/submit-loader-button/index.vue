@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { TweenLite, Power2 } from 'gsap/TweenLite'
+import { TweenLite, Power2 } from 'gsap'
 
 const circumference = 157
 
